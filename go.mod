@@ -20,9 +20,10 @@ require (
 // must be consistent within modules and service operators
 replace github.com/openshift/api => github.com/openshift/api v0.0.0-20250711200046-c86d80652a9e
 
+require github.com/Masterminds/semver/v3 v3.4.0
+
 require (
 	cel.dev/expr v0.24.0 // indirect
-	github.com/Masterminds/semver/v3 v3.4.0 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
